@@ -4,3 +4,9 @@ integers.each do |integer|
         p integer
     end
 end 
+
+integers.each do |integer|
+    if integer < 60
+        p integer
+    end
+end
